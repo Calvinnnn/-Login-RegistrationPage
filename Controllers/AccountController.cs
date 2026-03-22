@@ -8,5 +8,13 @@ namespace UserApp.Controllers
         {
             return View();
         }
+        public IActionResult Register()
+        {
+            return View();
+        }
+        public IActionResult VerifyEmail()
+        {
+            return View();
+        }
     }
 }
